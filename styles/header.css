@@ -1,5 +1,15 @@
+.cabecalho_menu-hamburger{
+    width: 24px;
+    height: 24px;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: inline-block;
+}
+
 .cabecalho{
-    background-color: var(--);
+    background-color: var(--branco);
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -10,3 +20,18 @@
     display:flex;
     align-items: center;
 } 
+
+.container_imagem {
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container_botao:checked~.lista-menu{
+    display: block;
+}

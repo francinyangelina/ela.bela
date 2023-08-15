@@ -1,14 +1,17 @@
-@import url("styles/hewader.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
 
 :root {
---cor-de-fundo-titulo:#a72727;
---cor-de-fundo:#F0F0F0;
---cor-rua:#C38A1B;
---cor-rua:#000000;
+    --cor-de-fundo-titulo:#a72727;
+    --cor-de-fundo:#F0F0F0;
+    --branco:#FFFFFF;
+    --ciano:#4000ff;
+    --azuldegrade:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,)
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family:
 }
 
 header{
