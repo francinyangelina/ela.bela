@@ -1,0 +1,16 @@
+@import url("styles/hewader.css");
+
+:root {
+--cor-de-fundo-titulo:#a72727;
+--cor-de-fundo:#F0F0F0;
+--cor-rua:#C38A1B;
+--cor-rua:#000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+header{
+    background-color: var(--cor-de-fundo-titulo);
+}
